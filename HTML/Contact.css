@@ -1,0 +1,90 @@
+.maincontact {
+  height: 600px;
+  width: 400px;
+
+  float: left;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.contactus {
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+.form-group1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.form-group2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  color: white;
+}
+.form-group3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  color: white;
+}
+.form-group4 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  color: white;
+}
+.form-group5 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}

@@ -1,0 +1,356 @@
+#wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  height: 100%;
+}
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 700px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  height: 700px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+.header {
+  background-color: rgb(14, 12, 12);
+  width: auto;
+  height: 75px;
+}
+.listat {
+  list-style-type: none;
+  margin-right: 80px;
+
+  display: flex;
+  float: right;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  margin-top: 15px;
+}
+
+li {
+  margin: 10px;
+  color: white;
+  text-align: center;
+}
+li:hover {
+  text-decoration: underline;
+}
+.fotoja {
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+.wall {
+  height: 700px;
+  width: auto;
+}
+.walli {
+  height: 700px;
+  width: 1200px;
+}
+
+.falconall {
+  border: solid black 3px;
+  height: 350px;
+  width: 1194px;
+}
+
+.falconimg {
+  float: left;
+  width: 597px;
+  height: 350px;
+  background-color: rgb(14, 12, 12);
+}
+.falconi {
+  margin-top: 20px;
+  width: 26px;
+  height: 320px;
+  margin-left: 300px;
+}
+.falcontxt {
+  background-color: rgb(14, 12, 12);
+  float: right;
+  width: 597px;
+  height: 350px;
+}
+
+.falconn {
+  margin-left: 200px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.afalcon {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dragonall {
+  border: solid black 3px;
+  height: 350px;
+  width: 1194px;
+}
+.dragonimg {
+  float: right;
+  width: 597px;
+  height: 350px;
+  background-color: rgb(14, 12, 12);
+}
+
+.dragoni {
+  margin-top: 25px;
+  margin-left: 170px;
+  width: 250px;
+  height: 300px;
+}
+.dragontxt {
+  background-color: rgb(14, 12, 12);
+  float: right;
+  width: 597px;
+  height: 350px;
+}
+
+.h1dragon {
+  margin-top: 50px;
+  margin-left: 200px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.adragon {
+  margin-left: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.falconheavyall {
+  border: solid black 3px;
+  height: 350px;
+  width: 1194px;
+}
+.falconheavyimg {
+  float: left;
+  width: 597px;
+  height: 350px;
+  background-color: rgb(14, 12, 12);
+}
+
+.falconheavyi {
+  margin-top: 25px;
+  margin-left: 250px;
+  width: 70px;
+  height: 300px;
+}
+.falconheavytxt {
+  background-color: rgb(14, 12, 12);
+  float: right;
+  width: 597px;
+  height: 350px;
+}
+
+.h1falconheavy {
+  margin-top: 50px;
+  margin-left: 200px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.afalconheavy {
+  margin-left: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  background-color: rgb(14, 12, 12);
+  width: auto;
+  height: 50px;
+  border: solid black 3px;
+}
+.listatfooter {
+  list-style-type: none;
+  margin-right: 300px;
+
+  display: flex;
+  float: right;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  margin-top: 5px;
+}
+
+li {
+  margin: 10px;
+  color: white;
+  text-align: center;
+}
+li:hover {
+  text-decoration: underline;
+}
+.fotofooter {
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+/* -------- LOGIN CSS --------- */
+
+.container {
+  height: 100vh;
+}
+.login_form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.both_left_right {
+  width: 300px;
+  height: 400px;
+}
+.left img {
+  width: 300px;
+  overflow: visible;
+  background-position: center;
+  background-size: cover;
+}
+
+.left {
+  background-color: whitesmoke;
+}
+.left h1 {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1rem;
+}
+
+.right {
+  background-color: rgb(255, 240, 211);
+}
+
+.inside_form {
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+  display: flex;
+  padding-top: 60px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inside_form button {
+  font-size: 15px;
+  color: white;
+  padding: 5px 40px 5px 40px;
+  background-color: rgba(27, 39, 89, 255);
+  border-radius: 10px;
+  border: none;
+  transition: transform 0.2s;
+}
+input[type="text"],
+[type="password"] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+}
+input:focus {
+  outline: none;
+}
+
+.inside_form button:hover {
+  font-size: 20;
+  transform: scale(1.2);
+}
+
+.inside_form a {
+  text-decoration: none;
+  color: black;
+  transition: transform 0.2s;
+}
+
+.inside_form a:hover {
+  transform: scale(1.2);
+}
+
+label {
+  padding-bottom: 10px;
+  text-align: center;
+}
+#wrong_password,
+#wrong_username {
+  display: none;
+  color: rgb(168, 39, 39);
+  font-size: medium;
+  letter-spacing: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .login_form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .both_left_right {
+    width: 80%;
+    height: 60%;
+  }
+  .left img {
+    margin-left: 45px;
+    width: 200px;
+    height: auto;
+  }
+  .inside_form {
+    margin: 0;
+    padding: 10px;
+  }
+}
+#twitter {
+  margin-left: 550px;
+  color: grey;
+  width: 100px;
+  height: 40px;
+}
+#twitter:hover {
+  color: blue;
+}
+#facebook {
+  color: grey;
+  width: 100px;
+  height: 40px;
+}
+#facebook:hover {
+  color: royalblue;
+}
+#youtube {
+  color: grey;
+  width: 100px;
+  height: 40px;
+}
+#youtube:hover {
+  color: red;
+}

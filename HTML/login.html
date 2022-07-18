@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="indexcss.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a5d75c613c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <body style="background-image: url(../images/bglogin.webp)"></body>
+    <!-- Lidhja me faqet tjera
+    <?php include(header/php);   ?> 
+
+    <div id="wrap">
+      <div class="header">
+          <img class="fotoja" src="..\images\spacexlogo.png" alt="SpaceXlogo">
+          <ul class="listat">
+                 
+              <li><a href="about.html"  TARGET="_blank">ABOUT</a></li>
+              <li><a href="Contact.html"  TARGET="_blank">CONTACT</a></li>
+              <li><a href="Falcon.html"  TARGET="_blank">FALCON 9</a></li>
+              <li><a href="login.html"  TARGET="_blank">LOGIN</a></li>
+              <li>DRAGON</li>
+              <li>FALCON HEAVY</li>
+              
+          </ul>
+  
+</div> -->
+    <section class="container">
+      <div class="login_form">
+        <div class="both_left_right left">
+          <h1>Login</h1>
+          <img src="../images/dragon.png" />
+        </div>
+        <div class="both_left_right right">
+          <form
+            action=""
+            method=""
+            name="login_form"
+            onsubmit="return validateLoginForm()"
+          >
+            <div class="inside_form" id="inside_form">
+              <label>Username</label>
+              <input type="text" placeholder="Username" name="name" />
+              <span id="wrong_username"
+                ><p>Username should not be empty</p></span
+              >
+              <br />
+              <label>Password</label>
+              <input type="password" placeholder="Password" name="password" />
+              <span id="wrong_password" style="display: none"
+                ><p>Password should not be empty and at least 8 char</p></span
+              >
+              <br />
+              <button type="submit">
+                LOGIN <i class="fa fa-sign-in-alt"></i>
+              </button>
+
+              <br />
+              <a href="#SignUp.html">Create account </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="./js/validation.js"></script>
+  </body>
+</html>
